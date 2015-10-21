@@ -1,0 +1,150 @@
+
+/* this was to remove the little white boder around the header
+now the fill out and extend all the way accross the page all the way to 
+the top and bottom */
+body{
+  margin:0;
+}
+
+.imghead {
+  padding: 10em 0 20em 0;
+  background-image: url("http://i772.photobucket.com/albums/yy8/kbroomfield316/Web%20Dev%20Pohots/mountaincross_zpsb4tlbzkl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 65%;
+}
+
+#header {
+ color: white; 
+ font: bold 10em Helvetica, Sans-Serif;
+ letter-spacing: 1px; 
+ position: absolute;
+ top: .001em;
+ left: .2em;
+ text-shadow: .01em .01em .02em #000000;
+ margin: 0;
+}
+
+#subheader {
+ color: white; 
+ font: bold 8em Helvetica, Sans-Serif;
+ letter-spacing: 1px; 
+ position: absolute;
+ top: .001em;
+ left: .3em;
+ text-shadow: .01em .01em .02em #000000;
+ margin-top: 1.5em;
+ padding-bottom:1em;
+}
+
+#wrapper {
+  width: 50em;
+  margin: auto;
+}
+
+.mainheads {
+  font: bold 4em Georgia, 'Times New Roman', Times, serif;
+  color: #660000;
+  text-shadow: .01em .01em .02em #000000;
+}
+
+p {
+  color: #707070 ;
+  font: bold 1.3em Courier New;
+  line-height: 1.5em;
+}
+
+.tidbitshead {
+  font: bold 2em Georgia, 'Times New Roman', Times, serif;
+  color: #660000;
+  margin-top: 2em;
+  margin-bottom: -1.em;
+}
+
+h3 {
+  font: bold 1.5em Open Sans, 'Times Ne Roman', Times, serif;
+  color:#404040;
+  text-shadow: .01em .01em .02em #000000;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  color: #707070 ;
+  font: bold 1.2em Courier New;
+  line-height: 1.9em;
+}
+
+.footer h4 {
+  font: 1em Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding: 2em;
+
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 2em;
+  color: white;
+  font: 1em Charcoal, sans-serif;
+}
+
+ a{
+  text-decoration: none;
+}
+  
+/* unvisited link */
+a:link {
+    color: #660000 ;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(0, 0, 0, .7);
+  position: relative;
+  bottom:0; 
+  right:0;
+  height: 15em;
+  margin-top: 10em;
+  width:100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .imghead {
+        padding: 5em 0 10em 0;
+    }
+    #header, #subheader {
+        font: bold 3em/1em Helvetica, Sans-Serif;
+
+    }
+
+    #header {
+      margin-top: 2em;
+    }
+    #subheader {
+      margin-top: 3em;
+    }
+
+    a {
+      font: .1em;
+    }
+
+}
+
+
